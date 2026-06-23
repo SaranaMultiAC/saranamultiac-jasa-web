@@ -3,7 +3,7 @@ import { useState } from 'react'
 import Link from 'next/link'
 
 export default function Home() {
-  const waNumber = '6281234567890' // GANTI NOMOR WA LU
+  const waNumber = '628137321066' // GANTI NOMOR WA LU
   
   const layananList = [
     { id: 'cuci', nama: 'Service Rutin / Cuci AC', harga: 75000 },
