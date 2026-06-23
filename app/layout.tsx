@@ -1,7 +1,16 @@
 export const metadata = {
-  title: 'Jasa Service AC Jakarta Bergaransi - Sarana Multi AC',
-  description: 'Cuci AC 85rb, Isi Freon 150rb, Bongkar Pasang 350rb. Teknisi berpengalaman. Garansi 30 hari. Hub 08137321066'
+  title: 'Sarana Multi AC - Jasa Service AC Bekasi',
+  description: 'Service AC, Cuci AC, Isi Freon, Bongkar Pasang AC Bekasi. Teknisi Berpengalaman.',
 }
-export default function RootLayout({children}: {children: React.ReactNode}) {
-  return (<html lang="id"><body style={{margin:0}}>{children}</body></html>)
+
+export default function RootLayout({
+  children,
+}: {
+  children: React.ReactNode
+}) {
+  return (
+    <html lang="id">
+      <body>{children}</body>
+    </html>
+  )
 }
