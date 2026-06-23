@@ -12,7 +12,7 @@ export default function Home() {
         <a 
           href="https://wa.me/6281234567890" 
           target="_blank"
-          className="inline-block bg-green-500 hover:bg-green-600 text-white font-bold py-4 px-8 rounded-full shadow-lg transition"
+          className="inline-block bg-green-500 hover:bg-green-600 text-white font-bold py-4 px-8 rounded-full shadow-lg"
         >
           Chat WhatsApp Sekarang
         </a>
