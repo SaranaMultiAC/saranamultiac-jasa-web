@@ -31,13 +31,13 @@ export default function Home() {
 
       <div className="container mx-auto px-4 py-8 max-w-4xl">
         
-        {/* BANNER PROMO */}
+        {/* BANNER PROMO - UDAH GW KECILIN NIH */}
         <div className="mb-6">
           <Link href={`https://wa.me/${waNumber}?text=Halo,%20saya%20mau%20promo%20Cuci%20AC%20dari%20banner`}>
             <img 
               src="/banner-cuci-ac.jpg" 
               alt="Promo Cuci AC Sarana Multi AC" 
-              className="w-full rounded-xl shadow-md hover:shadow-xl transition-shadow"
+              className="w-full max-w-3xl mx-auto rounded-xl shadow-md hover:shadow-xl transition-shadow"
             />
           </Link>
         </div>
