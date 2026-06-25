@@ -24,7 +24,29 @@ export default function Home() {
       </header>
 
       <div className="container mx-auto px-4 py-8 max-w-4xl">
+  return (
+    <main className="bg-gray-100 min-h-screen">
+      <header className="bg-blue-700 text-white sticky top-0 z-50">
+        <div className="container mx-auto px-4 py-4 flex justify-between items-center">
+          <h1 className="text-2xl font-bold">Sarana Multi AC</h1>
+          <Link href={`https://wa.me/${waNumber}`} className="bg-green-500 hover:bg-green-600 px-6 py-2 rounded-lg font-bold">WhatsApp</Link>
+        </div>
+      </header>
+
+      <div className="container mx-auto px-4 py-8 max-w-4xl">
+        
+        {/* TEMPLE KODE BANNER DI SINI */}
+        <div className="mb-6">
+          <img 
+            src="/banner-cuci-ac.jpg" 
+            alt="Promo Cuci AC Sarana Multi AC" 
+            className="w-full rounded-xl shadow-md"
+          />
+        </div>
+
         <div className="bg-white rounded-xl shadow-md p-6 mb-6">
+          <h2 className="text-2xl font-bold text-center">Service AC Cilangkap</h2>
+            <div className="bg-white rounded-xl shadow-md p-6 mb-6">
           <h2 className="text-2xl font-bold text-center">Service AC Cilangkap</h2>
           <div className="flex justify-center items-center gap-2 my-3">
             <span className="text-yellow-400 text-xl">★★★★★</span>
