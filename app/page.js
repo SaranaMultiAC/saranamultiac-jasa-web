@@ -30,9 +30,9 @@ export default function Home() {
   ]
 
   const testimonials = [
-    {text: '"AC sdh dingin kembali dan tidak bocor lagi, semoga awet. tks"', name: 'Iely, 07 Jun 2026'},
-    {text: '"Sangat baik. Transparan, Rekomen. Terima kasih."', name: 'Rahmat Hidayat, 06 Jun 2026'},
-    {text: '"Petugasnya ramah, kasih info yg jelas mengenai freon. Good job"', name: 'Merlin, 06 Jun 2026'},
+    {text: '"AC sdh dingin kembali dan tidak bocor lagi, terimkasih"', name: 'apung, 04 Mei 2026'},
+    {text: '"Mantap. Transparan, Rekomen. Terima kasih."', name: 'Hendra, 04 Mei 2026'},
+    {text: '"Petugasnya ramah, kasih info yg jelas mengenai freon.no tipu"', name: 'Ari, 04 Mei 2026'},
   ]
 
   return (
@@ -54,16 +54,16 @@ export default function Home() {
         </div>
       </header>
 
-      {/* HERO NAVY - PAKE TEKNISI-AC.PNG */}
+      {/* HERO NAVY - HEADLINE UDAH GW GANTI */}
       <section className="bg-[#F8FAFC] border-b border-gray-200">
         <div className="container mx-auto px-4 max-w-6xl">
           <div className="grid md:grid-cols-2 gap-12 items-center py-16 md:py-24">
             <div>
               <h2 className="text-4xl md:text-5xl font-extrabold text-[#0B2C4D] leading-tight">
-                Rumah Semakin Sejuk,<br/>Hidup Lebih Nyaman
+                RUANGAN SEJUK DAN BERSIH<br/>TAGIHAN LISTRIK SEMAKIN HEMAT
               </h2>
               <p className="text-gray-600 mt-5 text-lg leading-relaxed">
-                Masalah AC mati, bocor, atau berisik? Kami siap datang dan tangani semua masalah AC Anda dengan teknisi profesional.
+                AC kotor bikin boros listrik & gampang rusak. Kami siap bersihkan & service AC Anda sampai dingin maksimal.
               </p>
               <Link 
                 href={waLink('Halo, saya mau SERVICE AC SEKARANG')}
@@ -72,7 +72,6 @@ export default function Home() {
                 SERVICE AC SEKARANG
               </Link>
             </div>
-            {/* GAMBAR HERO UDAH GW GANTI */}
             <div className="flex justify-center">
               <img 
                 src="/teknisi-ac.png" 
@@ -101,10 +100,9 @@ export default function Home() {
         </div>
       </div>
 
-      {/* FEATURES SECTION - PAKE TEKNISI-OUTDOOR.JPEG */}
+      {/* FEATURES SECTION */}
       <section className="container mx-auto px-4 max-w-6xl py-20 md:py-28">
         <div className="grid md:grid-cols-2 gap-16 items-center">
-          {/* KIRI: GAMBAR UDAH BENER */}
           <div>
             <img 
               src="/teknisi-outdoor.jpeg" 
@@ -112,7 +110,6 @@ export default function Home() {
               className="w-full rounded-lg shadow-xl"
             />
           </div>
-          {/* KANAN: 3 FITUR */}
           <div className="space-y-10">
             {features.map((f, i) => (
               <div key={i} className="flex gap-5 items-start">
@@ -180,7 +177,7 @@ export default function Home() {
         <Kalkulator waNumber={waNumber} />
       </section>
 
-      {/* TOMBOL WA UDAH BENER */}
+      {/* TOMBOL WA */}
       <Link 
         href={waLink('Halo Sarana Multi AC, saya mau konsultasi service AC')}
         className="fixed bottom-6 right-6 bg-[#25D366] hover:bg-[#1EBE5D] text-white px-5 py-3 rounded-full shadow-2xl z-50 transition-all hover:scale-110 flex items-center gap-2 font-bold"
